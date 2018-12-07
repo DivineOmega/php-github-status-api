@@ -16,8 +16,12 @@ class Client
         'minor' => GitHubStatus::MINOR,
     ];
 
-    public function status(Carbon $datetime)
+    public function status(Carbon $datetime = null)
     {
+        if ($datetime === null) {
+            $datetime = Carbon::now();
+        }
+
         $dom = $this->getDomDocument($datetime);
 
         $timeElements = $dom->querySelectorAll('time');

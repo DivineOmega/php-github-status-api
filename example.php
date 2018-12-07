@@ -6,7 +6,7 @@ use DivineOmega\GitHubStatusApi\Enums\GitHubStatus;
 
 require_once 'vendor/autoload.php';
 
-$status = (new Client())->status(Carbon::now());
+$status = (new Client())->status();
 
 switch ($status) {
     case GitHubStatus::GOOD:
