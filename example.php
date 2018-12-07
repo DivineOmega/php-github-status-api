@@ -1,6 +1,5 @@
 <?php
 
-use Carbon\Carbon;
 use DivineOmega\GitHubStatusApi\Client;
 use DivineOmega\GitHubStatusApi\Enums\GitHubStatus;
 
