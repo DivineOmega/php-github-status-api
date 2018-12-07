@@ -1,4 +1,14 @@
 {
+    "name": "divineomega/github-status-api",
+    "description": "Allows you to programmatically determine if GitHub is working well, or experiencing issues",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jordan Hall",
+            "email": "jordan@hall05.co.uk"
+        }
+    ],
+    "license": "LGPL-3.0-only",
     "require": {
         "ivopetkov/html5-dom-document-php": "^1.1",
         "nesbot/carbon": "^2.7"
