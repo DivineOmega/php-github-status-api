@@ -22,6 +22,7 @@ and call its `status` method. You can optionally pass a `Carbon` date object
 to the `status` method to retrieve a historical status.
 
 ```php
+use Carbon\Carbon;
 use DivineOmega\GitHubStatusApi\Client;
 use DivineOmega\GitHubStatusApi\Enums\GitHubStatus;
 
@@ -49,5 +50,4 @@ switch ($status) {
 }
 
 echo PHP_EOL;
-
 ``` 

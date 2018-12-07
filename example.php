@@ -1,11 +1,13 @@
 <?php
 
+use Carbon\Carbon;
 use DivineOmega\GitHubStatusApi\Client;
 use DivineOmega\GitHubStatusApi\Enums\GitHubStatus;
 
 require_once 'vendor/autoload.php';
 
-$status = (new Client())->status();
+$status    = (new Client())->status();
+// $status = (new Client())->status(Carbon::parse('2018-12-06 17:00'));
 
 switch ($status) {
     case GitHubStatus::GOOD:
