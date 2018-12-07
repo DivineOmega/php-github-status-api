@@ -1,5 +1,7 @@
 # PHP GitHub Status API
 
+[![Packagist](https://img.shields.io/packagist/dt/divineomega/github-status-api.svg)](https://packagist.org/packages/divineomega/github-status-api/stats)
+
 This package provides a way to programmatically determine if GitHub is working 
 well, or experiencing issues.
 Both the current status and historical statuses can be looked up by date.
