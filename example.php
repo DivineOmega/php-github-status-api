@@ -5,7 +5,6 @@ use DivineOmega\GitHubStatusApi\Client;
 
 require_once 'vendor/autoload.php';
 
-$client = new Client();
-$status = $client->status(Carbon::parse('2018-12-06 17:00'));
+$status = (new Client())->status(Carbon::now());
 
 var_dump($status);
