@@ -1,6 +1,6 @@
 {
     "name": "divineomega/github-status-api",
-    "description": "Allows you to programmatically determine if GitHub is working well, or experiencing issues",
+    "description": "Programmatically determine if GitHub is working well, or experiencing issues",
     "type": "library",
     "authors": [
         {
