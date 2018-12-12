@@ -1,5 +1,11 @@
 # PHP GitHub Status API
 
+---
+
+⚠️ **Warning:** As of 11th December 2018, GitHub have deprecated the status page that this package parses, so current status information may not be up-to-date. More information: https://blog.github.com/2018-12-11-introducing-the-new-github-status-site/
+
+---
+
 This package provides a way to programmatically determine if GitHub is working 
 well, or experiencing issues.
 Both the current status and historical statuses can be looked up by date.
