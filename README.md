@@ -1,5 +1,7 @@
 # PHP GitHub Status API
 
+[![Build Status](https://travis-ci.com/DivineOmega/php-github-status-api.svg?branch=master)](https://travis-ci.com/DivineOmega/php-github-status-api)
+
 ---
 
 ⚠️ **Warning:** As of 11th December 2018, GitHub have deprecated the status page that this package parses, so current status information may not be up-to-date. More information: https://blog.github.com/2018-12-11-introducing-the-new-github-status-site/
